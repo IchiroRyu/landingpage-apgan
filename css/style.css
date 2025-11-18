@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+.layout{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 5px 10px black;
+}
+.layout img{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.layout #valorant{
+    width: 90px;
+    height: 70px;
+}
+.layout ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 550px;
+    gap: 100px;
+    position: absolute;
+    top: 50px;
+}
+.layout ul li{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.layout ul li a{
+    text-decoration: none;
+    color: white;
+}
+.layout ul li .a:hover{
+    background-color: rgb(66, 66, 66);
+    border-radius: 5px;
+}
+.layout ul li .b:hover{
+    background-color: rgb(66, 66, 66);
+    border-radius: 5px;
+}
+.layout ul li .c:hover{
+    background-color: rgb(66, 66, 66);
+    border-radius: 5px;
+}
+/* agent */
+.agent{
+    background-image: url(../img/jet.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 445px;
+}
+.agent h1{
+    color: white;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.agent p{
+    color: white;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 20px;
+}
+.agent .kotak{
+    border: 1px solid red;
+}
+.agent img{
+    height: 150px;
+    margin-top: 250px;
+    margin-left: 14px;
+}
+
+/* kemampuan */
+.kemampuan{
+    background-color: rgb(28, 45, 51);
+    width: 100%;
+    height: 500px;
+}
+.kemampuan .K{
+    color: white;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.kemampuan .terbang{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 25%;
+}
+.kemampuan .dash{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 40%;
+}
+.kemampuan .smoke{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 55%;
+}
+.kemampuan .ult{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 70%;
+}
+.kemampuan .D{
+    color: white;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 26%;
+}
+.kemampuan .T{
+    color: white;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 39%;
+}
+.kemampuan .S{
+    color: white;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 55%;
+}
+.kemampuan .U{
+    color: white;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 71%;
+}
+
+/* last */
+.last{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 400px;
+}
+.last .garis{
+    border: 2px solid rgb(83, 83, 83)
+}
+.last p{
+    color: white;
+    font-size: 50px;
+}
+.last .a{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 5%;
+}
+.last .a:hover{
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+}
+.last .b{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 35%;
+}
+.last .b:hover{
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+}
+.last .c{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 70%;
+}
+.last .c:hover{
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+}
+.last p a{
+    color: white;
+    text-decoration: none;
+}
+.last img{
+    height: 100px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 590px;
+}
+.last .tentang{
+    font-size: 15px;
+    color: rgb(110, 110, 110);
+    position: absolute;
+    padding-top: 170px;
+    margin-left: 330px;
+    text-align: center;
+}
